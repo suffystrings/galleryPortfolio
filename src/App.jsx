@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { BrowserRouter ,Routes,Route} from 'react-router-dom'
+import { BrowserRouter ,Routes,Route, } from 'react-router-dom'
 import Homepage from './components/pages/Homepage'
 import Navbar from './components/Navbar'
 import PageNF from './components/pages/PageNF'
@@ -15,10 +15,11 @@ import SignUp from './components/pages/SignUp'
 
 
 
+
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/galleryPortfolio'>
       <Navbar/>
         <Routes> 
           <Route path='/home' element={<Homepage/>}/>
