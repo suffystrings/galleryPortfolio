@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Image-containers{
+    padding: 20px;
+    margin-top: 20vh;
+    margin-bottom: 200px;
+}
+.Image-containers h1{
+    text-align: center;
+    color: #242424;
+    font-size: 30px;
+    margin-bottom: 60px;
+
+}
+.image-wrapper{
+    display: flex;
+    flex-grow: inherit;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    margin: 0px auto;
+    border-radius: 20px;
+    
+}
+.image-wrapper div{
+    margin: 5px;
+}
+.image-wrapper p{
+    font-size: 25px;
+    color: gold;
+    font-weight: bold;
+
+    outline: none;
+    list-style: none;
+    padding: 20px;
+    height: 8rem;
+    border: none;
+    margin-top: 0px;
+    text-align: center;
+}
+.imageBox{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(100, 182, 245, 0.933);
+}
+.imageBox:hover{
+    background-color: #fff;
+    box-shadow: 2px 0px 6px rgba(0,0,0,0.7);
+}
+img{
+    margin-bottom: -px;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+.songWritter{
+    font-size: 70px;
+    text-align: center;
+    font-weight: 600px;
+    color: red ;
+}
