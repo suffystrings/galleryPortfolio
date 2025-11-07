@@ -15,14 +15,15 @@ export default function HeroSection(){
                     className='btn'
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
-                   to='/service'
+                   to='/logIn'
                 >GET-STARTED</Button>
+
 
                 <Button
                     className='btn'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
-                    to='/product'
+                    to='/card'
                 >TAKING OVER <i className="far fa-play-circle"/></Button>
             </div>
         </div>

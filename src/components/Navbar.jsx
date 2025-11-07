@@ -40,7 +40,7 @@ export default function Navbar(){
                 </div>
                 <ul className={click ?"nav-menu active" : "nav-menu"}>
                   <li className="nav-item">
-                     <Link to='/home' className="nav-links" onClick={closedMobileMenu}>Home</Link>
+                     <Link to='/' className="nav-links" onClick={closedMobileMenu}>Home</Link>
                   </li>
                   <li className="nav-item">
                      <Link to='/service' className="nav-links" onClick={closedMobileMenu}>Services</Link>
@@ -49,7 +49,7 @@ export default function Navbar(){
                      <Link to='/product' className="nav-links" onClick={closedMobileMenu}>Products</Link>
                   </li>
                 </ul>
-               {button && <Button to="/product" buttonStyle={'btn--outline'}>Sign UP</Button> }
+               {button && <Button to="/login" buttonStyle={'btn--outline'}>Sign UP</Button> }
              </div>
         </nav>
        </>

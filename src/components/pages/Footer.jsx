@@ -11,8 +11,8 @@ function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
-        <p className='footer-subscription-heading' style={{marginBottom : "4rem", color: "gold" }}>
-         <strong style={{background : "gold", color : "red", padding : "40px", borderRadius: "8px", marginRight: "20px"}}>GO GETTER, ACTIVE MINDS </strong>the best time is now
+        <p className='footer-subscription-heading'>
+         <strong >GO GETTER, ACTIVE MINDS </strong> the best time is now
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.

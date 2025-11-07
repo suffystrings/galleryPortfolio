@@ -8,30 +8,30 @@ const Gallery=(props)=>{
     const image=[
         {
             id: 1,
-            src: "/images/img-1.jpg",
+            src: "./images/img-1.jpg",
             title: "SOFTWARE ENGINEER",
         },
           {
             id: 2,
-            src: "/images/img-2.jpg",
+            src: "./images/img-2.jpg",
             title: "UX & UI DESIGNER",
         },
           {
             id: 3,
-            src: "/images/img-3.jpg",
+            src: "./images/img-3.jpg",
             title: "GRAPHICS DESIGNER",
         },  {
             id: 4,
-            src: "/images/img-4.jpg",
+            src: "./images/img-4.jpg",
             title: "PHOTOGRAPHER",
             
         },  {
             id: 5,
-            src: "/images/img-5.jpg",
+            src: "./images/img-5.jpg",
             title: "SONG WRITER",
         },  {
             id: 6,
-            src: "/images/img-6.jpg",
+            src: "./images/img-6.jpg",
             title: "ARTISTS",
         },
     ]
